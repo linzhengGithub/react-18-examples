@@ -1,0 +1,23 @@
+{
+  "hash": "feee4d87",
+  "browserHash": "a1e3ccae",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/.pnpm/registry.npmmirror.com+react@18.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "67cafbc4",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/registry.npmmirror.com+react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "695ac9c7",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-67VRRJCZ": {
+      "file": "chunk-67VRRJCZ.js"
+    }
+  }
+}
