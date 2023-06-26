@@ -1,8 +1,6 @@
-
-import React from 'react'
-
-export default function YourComponent() {
+export default function YourComponent({ resource }: any) {
+  const num = resource.num.read()
   return (
-    <div>YourComponent</div>
+    <div>{num}</div>
   )
 }

@@ -1,7 +1,7 @@
 # react-18
 
 ## concurrent - 并发
-### 特点
+### 特点(任务优先级)
 1. 渲染是可中断的 (以前React中的update是同步渲染)
    如何做到任务中断 - fiber
 2. 被遗弃的任务(不重要的update可被遗弃)
@@ -70,8 +70,13 @@ export default class SyncButton extends Component<{}, State> {
 function Suspense_page() {
   return (
     <Suspense fallback={<h1>loading...</h1>}>
-      <LazyComponent />
+      <Component />
     </Suspense>
   );
 }
 ```
+### transition
+react的update分两种
+
+* urgent updates - 紧急更新(用户的直接交互)
+* transition - 过渡更新(一个视图到领一个视图)
