@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import './App.css'
-import SyncButton from './dom/class_flushSync';
+// import SyncButton from './dom/class_flushSync';
 import Suspense_page from './dom/Suspense_page';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
 
   return (
     <>
-      <SyncButton />
+      {/* <SyncButton /> */}
       <Suspense_page />
     </>
   )
