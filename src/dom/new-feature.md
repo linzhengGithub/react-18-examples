@@ -80,3 +80,11 @@ react的update分两种
 
 * urgent updates - 紧急更新(用户的直接交互)
 * transition - 过渡更新(一个视图到领一个视图)
+
+startTransition 是立即执行的与suseetTimeout不同
+
+hook api(useTransition) 可以获取到过渡(transition)的实时状态
+```ts
+import { useTransition } from 'react';
+const [isPending, startTransition] = useTransition();
+```
