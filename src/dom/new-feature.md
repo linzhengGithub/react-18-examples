@@ -88,3 +88,7 @@ hook api(useTransition) 可以获取到过渡(transition)的实时状态
 import { useTransition } from 'react';
 const [isPending, startTransition] = useTransition();
 ```
+#### Suspense和transition结合
+
+#### useDeferredValue
+帮助实现防抖和节流,接口一个变量 useDeferredValue(value)
