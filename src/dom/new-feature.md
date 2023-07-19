@@ -92,3 +92,13 @@ const [isPending, startTransition] = useTransition();
 
 #### useDeferredValue
 帮助实现防抖和节流,接口一个变量 useDeferredValue(value)
+
+## 新的Hooks
+### useId
+
+### useSyncExternalStore
+可用于外部数据的读取与订阅;
+代替手动实现状态的管理
+
+### useInsertionEffect
+它会在DOM变更前同步触发
